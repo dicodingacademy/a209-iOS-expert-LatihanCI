@@ -5,7 +5,7 @@ workflows:
       xcode: latest
       cocoapods: default
       vars:
-          XCODE_PROJECT: "LatihanCI.xcodeproj" # Isikan nama project Anda.
+          XCODE_PROJECT: "TriangleApp.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "TriangleApp" # Isikan nama scheme project Anda.
     scripts:
       - name: Run tests
